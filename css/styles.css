@@ -1,0 +1,318 @@
+/* ---------GENERAL--------- */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+
+.sections-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.brand-color-span {
+  color: #fd9222;
+}
+/* ------------------------- */
+
+/* ---------HEADER--------- */
+.header {
+  background-color: #fafafa;
+}
+
+.header-logo {
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.logo-span {
+  font-style: italic;
+}
+
+.header-logo-img {
+}
+
+.navigation {
+}
+
+.navigation-list {
+}
+
+.navigation-list-item {
+}
+
+.navigation-item-link {
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.navigation-item-link:hover,
+.navigation-item-link:focus {
+  color: #fd9222;
+}
+
+.social-list {
+}
+
+.social-list-item {
+}
+
+.social-item-link {
+}
+/* ------------------------- */
+
+/* ---------HERO--------- */
+
+.hero {
+  background: rgba(17, 17, 17, 0.6);
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+.hero-button-buy {
+  background-color: #fd9222;
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.hero-button-buy:hover,
+.hero-button-buy:focus,
+.hero-button-buy:active {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.hero-link-made-btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1px solid #fff;
+}
+
+.hero-link-made-btn:hover,
+.hero-link-made-btn:focus,
+.hero-link-made-btn:active {
+  color: #fd9222;
+}
+
+.hero-scroll-dwn-btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+}
+
+.hero-scroll-dwn-btn:hover,
+.hero-scroll-dwn-btn:focus,
+.hero-scroll-dwn-btn:active {
+  color: #fd9222;
+}
+
+.hero-scroll-dwn-text {
+}
+
+.hero-scroll-btn-img {
+}
+/* ------------------------- */
+
+/* ---------ADVANTAGES--------- */
+
+.our-advantages {
+  background-color: #1e1823;
+}
+
+.our-adventages-list {
+}
+
+.our-adventages-item {
+}
+
+.our-adv-list-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.our-adv-list-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+/* ------------------------- */
+
+/* ---------TASTE SENSATION--------- */
+
+.taste-sensation {
+}
+
+.taste-sensation-title {
+}
+
+.taste-sensation-text {
+  color: #111;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.taste-sensation-list {
+}
+
+.taste-sens-list-item {
+}
+
+.orange-bkgrnd {
+  background-color: #fd9222;
+}
+
+.black-bkgrnd {
+  background-color: #1e1823;
+}
+
+.taste-sens-list-title {
+  color: #111;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.white-text {
+  color: #fff;
+}
+.taste-sens-list-img {
+}
+/* ------------------------- */
+
+/* ---------HOW ITS MADE--------- */
+
+.how-made {
+}
+
+.made-title {
+}
+
+.made-img {
+}
+
+.made-side-title {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.made-list {
+}
+
+.made-list-item {
+  color: #111;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  list-style: disc;
+}
+
+.made-list-text {
+}
+/* ------------------------- */
+
+/* ---------OUR PRODUCTS--------- */
+
+.our-products {
+}
+
+.our-products-title {
+  text-transform: uppercase;
+}
+
+.products-list {
+}
+
+.products-list-item {
+  background-color: #fff;
+}
+
+.products-list-img {
+}
+
+.products-list-title {
+  color: #111;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.products-list-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.products-list-btn {
+  background-color: #fafafa;
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+
+  color: #111;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+/* ------------------------- */
