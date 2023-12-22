@@ -2,6 +2,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  background-color: #fafafa;
 }
 a {
   text-decoration: none;
@@ -207,14 +208,6 @@ ul {
 .taste-sens-list-item {
 }
 
-.orange-bkgrnd {
-  background-color: #fd9222;
-}
-
-.black-bkgrnd {
-  background-color: #1e1823;
-}
-
 .taste-sens-list-title {
   color: #111;
   font-size: 14px;
@@ -222,6 +215,16 @@ ul {
   font-weight: 600;
   line-height: 1.28;
   letter-spacing: -0.02em;
+}
+.orange-bkgrnd {
+  background-color: #fd9222;
+}
+
+.black-bkgrnd {
+  background-color: #1e1823;
+}
+.white-bkgrnd {
+  background-color: #ffff;
 }
 
 .white-text {
@@ -243,6 +246,7 @@ ul {
 }
 
 .made-side-title {
+  background-color: #fff;
   color: #111;
   font-size: 18px;
   font-weight: 600;
@@ -250,6 +254,7 @@ ul {
 }
 
 .made-list {
+  background-color: #fff;
 }
 
 .made-list-item {
@@ -286,7 +291,6 @@ ul {
 
 .products-list-title {
   color: #111;
-
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
@@ -303,10 +307,8 @@ ul {
 }
 
 .products-list-btn {
-  background-color: #fafafa;
   border-radius: 100px;
   border: 1px solid rgba(17, 17, 17, 0.1);
-
   color: #111;
   font-family: Montserrat;
   font-size: 14px;
@@ -315,4 +317,171 @@ ul {
   line-height: normal;
   cursor: pointer;
 }
+/* ------------------------- */
+
+/* ---------TOP SELLERS--------- */
+.top-sellers-section {
+}
+
+.top-sell-title {
+}
+
+.top-sell-list {
+}
+
+.top-sell-list-item {
+  background-color: #fff;
+}
+
+.top-sell-img {
+}
+
+.top-sell-list-title {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* ------------------------- */
+
+/* ---------LOVED--------- */
+.loved-sections {
+}
+
+.loved-item {
+}
+
+.loved-list {
+}
+
+.loved-list-item {
+  background-color: #fff;
+}
+
+.loved-list-img {
+}
+
+.loved-list-title {
+  color: #111;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.loved-list-text {
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.loved-btn {
+  background-color: #fafafa;
+  color: #111;
+  font-family: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 100px;
+  border: 1px solid #fd9222;
+  cursor: pointer;
+}
+.loved-btn:hover,
+.loved-btn:focus,
+.loved-btn:active {
+  color: #fff;
+  background-color: #fd9222;
+}
+/* ------------------------- */
+
+/* ---------FOOTER--------- */
+
+.footer-section {
+  background-color: #1e1823;
+}
+.footer-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+
+.footer-soc-title {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+}
+
+.footer-soc-list {
+}
+
+.footer-list-item {
+}
+
+.footer-item-link {
+}
+
+.footer-contacts-title {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+}
+
+.footer-contacts {
+  font-style: normal;
+}
+
+.footer-cont-list {
+}
+
+.footer-cont-item {
+}
+
+.footer-cont-link {
+  color: #fff;
+  text-align: center;
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.footer-nav {
+}
+
+.footer-nav-list {
+}
+
+.footer-nav-list-item {
+}
+
+.footer-nav-link {
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus,
+.footer-nav-link:active {
+  color: #fd9222;
+}
+
 /* ------------------------- */
