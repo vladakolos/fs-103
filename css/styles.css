@@ -1,4 +1,8 @@
 /* ---------GENERAL--------- */
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -35,19 +39,43 @@ ul {
 .brand-color-span {
   color: #fd9222;
 }
+
+.container {
+  max-width: 1166px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* ------------------------- */
 
 /* ---------HEADER--------- */
 .header {
   background-color: #fafafa;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
+  display: inline-flex;
+  gap: 4px;
   color: #111;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: -0.03em;
+  flex-grow: 2;
+  padding-bottom: 32px;
+  padding-top: 24px;
 }
 
 .logo-span {
@@ -61,6 +89,9 @@ ul {
 }
 
 .navigation-list {
+  display: flex;
+  gap: 24px;
+  margin-right: 90px;
 }
 
 .navigation-list-item {
@@ -72,6 +103,8 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.02em;
+  padding-bottom: 32px;
+  padding-top: 24px;
 }
 
 .navigation-item-link:hover,
@@ -80,19 +113,35 @@ ul {
 }
 
 .social-list {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
 }
 
 .social-list-item {
 }
 
 .social-item-link {
+  padding-bottom: 32px;
+  padding-top: 24px;
 }
 /* ------------------------- */
 
 /* ---------HERO--------- */
 
 .hero {
-  background: rgba(17, 17, 17, 0.6);
+  background-color: rgba(17, 17, 17, 0.6);
+  border-radius: 30px;
+  max-width: 1136px;
+  max-height: 600px;
+  padding: 381px 40px 40px 40px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .hero-title {
@@ -101,9 +150,14 @@ ul {
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.03em;
+  max-width: 484px;
+  max-height: 102px;
+  margin-bottom: 32px;
+  /* align-items: flex-start; */
 }
 
 .hero-button-buy {
+  display: block;
   background-color: #fd9222;
   color: #fff;
   font-family: inherit;
@@ -113,6 +167,13 @@ ul {
   line-height: normal;
   cursor: pointer;
   border-radius: 100px;
+  padding: 14px 40px;
+  gap: 14px;
+  padding: 14px 40px;
+  min-width: 144px;
+  min-height: 45px;
+  border: none;
+  margin-right: 14px;
 }
 
 .hero-button-buy:hover,
@@ -123,12 +184,17 @@ ul {
 }
 
 .hero-link-made-btn {
+  display: block;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
   border-radius: 100px;
   border: 1px solid #fff;
+  padding: 14px 40px;
+  gap: 14px;
+  min-width: 183px;
+  min-height: 45px;
 }
 
 .hero-link-made-btn:hover,
@@ -138,11 +204,19 @@ ul {
 }
 
 .hero-scroll-dwn-btn {
+  display: flex;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.03em;
+  min-width: 130px;
+  min-height: 38px;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  flex-grow: 2;
+  justify-content: flex-end;
 }
 
 .hero-scroll-dwn-btn:hover,
@@ -155,6 +229,10 @@ ul {
 }
 
 .hero-scroll-btn-img {
+}
+
+.hero-btn-all {
+  display: flex;
 }
 /* ------------------------- */
 
