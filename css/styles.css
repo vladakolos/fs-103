@@ -371,12 +371,28 @@ img {
 /* ---------HOW ITS MADE--------- */
 
 .how-made {
+  padding: 120px 0;
 }
 
 .made-title {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .made-img {
+  margin-right: 20px;
+}
+
+.made-container {
+}
+
+.made-container-without-title {
+  display: flex;
+}
+.made-container-without-title-img {
+  padding: 32px;
+  border-radius: 15px;
+  background-color: #fff;
 }
 
 .made-side-title {
@@ -385,10 +401,15 @@ img {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
+  max-width: 350px;
+  margin-bottom: 28px;
 }
 
 .made-list {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
+  gap: 24px 0;
 }
 
 .made-list-item {
