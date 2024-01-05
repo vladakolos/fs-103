@@ -130,18 +130,14 @@ img {
 /* ---------HERO--------- */
 
 .hero {
-  background-color: rgba(17, 17, 17, 0.6);
-  border-radius: 30px;
-  max-width: 1136px;
-  max-height: 600px;
-  padding: 381px 40px 40px 40px;
   margin: 0 auto;
+  padding-bottom: 80px;
 }
 
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  background-color: rgba(17, 17, 17, 0.6);
+  border-radius: 30px;
+  padding: 381px 40px 40px 40px;
 }
 
 .hero-title {
@@ -240,12 +236,21 @@ img {
 
 .our-advantages {
   background-color: #1e1823;
+  padding: 50px;
+}
+.advantages-container {
+  display: flex;
+  align-content: center;
 }
 
 .our-adventages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 88px;
 }
 
 .our-adventages-item {
+  flex-basis: calc((100% - 176px) / 3);
 }
 
 .our-adv-list-title {
@@ -253,8 +258,8 @@ img {
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 18px;
 }
-
 .our-adv-list-text {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
@@ -267,23 +272,47 @@ img {
 /* ---------TASTE SENSATION--------- */
 
 .taste-sensation {
+  padding: 120px;
+}
+
+.taste-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .taste-sensation-title {
+  display: block;
+  max-width: 412px;
+  margin-bottom: 28px;
 }
 
 .taste-sensation-text {
+  display: flex;
   color: #111;
   text-align: center;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  margin: 0 auto 50px;
+  max-width: 486px;
 }
 
 .taste-sensation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 32px;
 }
 
 .taste-sens-list-item {
+  /* display: flex;
+  flex-direction: column;
+ justify-content: center;*/
+  max-width: 260px;
+  max-height: 270px;
+  flex-basis: calc((100% - 72px) / 4);
+  padding: 28px 23px;
 }
 
 .taste-sens-list-title {
@@ -293,8 +322,30 @@ img {
   font-weight: 600;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  padding-bottom: 28px;
+  /*padding-left: 28px;
+  text-align: left;*/
 }
-.orange-bkgrnd {
+
+.taste-sens-list-item:nth-child(4n + 1) {
+  background-color: #fd9222;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.taste-sens-list-item:nth-child(even) {
+  border-radius: 15px;
+  border: 1px solid #fd9222;
+  background-color: #ffff;
+}
+
+.taste-sens-list-item:nth-child(4n + 3) {
+  background-color: #1e1823;
+  border-radius: 15px;
+  color: #fff;
+}
+
+/*.orange-bkgrnd {
   background-color: #fd9222;
 }
 
@@ -308,8 +359,13 @@ img {
 .white-text {
   color: #fff;
 }
+*/
+
 .taste-sens-list-img {
+  margin: 0 auto;
+  margin-bottom: 36px;
 }
+
 /* ------------------------- */
 
 /* ---------HOW ITS MADE--------- */
@@ -457,7 +513,6 @@ img {
   line-height: 1.28;
   letter-spacing: -0.02em;
 }
-
 .loved-btn {
   background-color: #fafafa;
   color: #111;
