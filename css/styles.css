@@ -313,10 +313,10 @@ img {
   max-height: 270px;
   flex-basis: calc((100% - 72px) / 4);
   padding: 28px 23px;
+  color: #111;
 }
 
 .taste-sens-list-title {
-  color: #111;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
