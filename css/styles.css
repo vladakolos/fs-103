@@ -379,10 +379,6 @@ img {
   margin-bottom: 50px;
 }
 
-.made-img {
-  margin-right: 20px;
-}
-
 .made-container {
 }
 
@@ -422,6 +418,12 @@ img {
 }
 
 .made-list-text {
+}
+
+.made-img {
+  margin-right: 20px;
+  max-width: 600px;
+  max-height: 400px;
 }
 /* ------------------------- */
 
