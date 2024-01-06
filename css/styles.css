@@ -323,8 +323,8 @@ img {
   line-height: 1.28;
   letter-spacing: -0.02em;
   padding-bottom: 28px;
-  /*padding-left: 28px;
-  text-align: left;*/
+  /*padding-left: 28px;*/
+  text-align: left;
 }
 
 .taste-sens-list-item:nth-child(4n + 1) {
@@ -371,7 +371,7 @@ img {
 /* ---------HOW ITS MADE--------- */
 
 .how-made {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 
 .made-title {
@@ -428,20 +428,38 @@ img {
 /* ---------OUR PRODUCTS--------- */
 
 .our-products {
+  padding-bottom: 120px;
+}
+
+.pdoducts-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 .our-products-title {
-  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 18px;
+  margin: 0 auto;
 }
 
 .products-list-item {
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
   background-color: #fff;
+  flex-basis: calc((100% - 54px) / 4);
+  padding: 32px 20px;
 }
 
 .products-list-img {
+  margin: 0 auto;
+  align-items: center;
 }
 
 .products-list-title {
@@ -459,6 +477,7 @@ img {
   font-style: normal;
   line-height: 1.17;
   letter-spacing: -0.02em;
+  margin-bottom: 18px;
 }
 
 .products-list-btn {
@@ -471,21 +490,38 @@ img {
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
+  padding: 8px 20px;
+  min-width: 94px;
+  min-height: 17px;
 }
 /* ------------------------- */
 
 /* ---------TOP SELLERS--------- */
 .top-sellers-section {
+  padding-bottom: 120px;
+}
+
+.topsellers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .top-sell-title {
+  margin-bottom: 50px;
 }
 
 .top-sell-list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
 }
 
 .top-sell-list-item {
+  border-radius: 15px 15px 0px 0px;
   background-color: #fff;
+  flex-basis: calc((100% - 32px) / 3);
 }
 
 .top-sell-img {
@@ -498,25 +534,51 @@ img {
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  margin: 0 auto;
+  padding: 28px 0;
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid rgba(17, 17, 17, 0.1);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  border-left: 1px solid rgba(17, 17, 17, 0.1);
 }
 
 /* ------------------------- */
 
 /* ---------LOVED--------- */
 .loved-sections {
+  padding-bottom: 120px;
 }
 
-.loved-item {
+.loved-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loved-title {
+  margin-bottom: 50px;
 }
 
 .loved-list {
+  display: flex;
+  gap: 28px;
+  align-items: stretch;
+  margin: 0 auto;
 }
 
 .loved-list-item {
   background-color: #fff;
+  flex-basis: calc((100% - 56px) / 3);
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+  padding: 24px;
 }
 
 .loved-list-img {
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 18px;
 }
 
 .loved-list-title {
@@ -525,6 +587,7 @@ img {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
+  margin-bottom: 24px;
 }
 
 .loved-list-text {
@@ -545,6 +608,10 @@ img {
   border-radius: 100px;
   border: 1px solid #fd9222;
   cursor: pointer;
+  padding: 14px 40px;
+  min-width: 222px;
+  min-height: 50px;
+  margin-top: 50px;
 }
 .loved-btn:hover,
 .loved-btn:focus,
@@ -558,13 +625,31 @@ img {
 
 .footer-section {
   background-color: #1e1823;
+  padding: 50px 0;
 }
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .footer-title {
   color: #fff;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.02em;
+  min-width: 300px;
+  min-height: 68px;
+  margin-right: 510px;
+  margin-bottom: 96px;
+}
+
+.footer-soc {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
 }
 
 .footer-soc-title {
@@ -573,9 +658,12 @@ img {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
+  margin-bottom: 14px;
 }
 
 .footer-soc-list {
+  display: flex;
+  gap: 14px;
 }
 
 .footer-list-item {
@@ -590,10 +678,15 @@ img {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
+  margin-bottom: 14px;
+  text-align: left;
 }
 
 .footer-contacts {
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .footer-cont-list {
@@ -617,6 +710,9 @@ img {
 }
 
 .footer-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .footer-nav-list-item {
