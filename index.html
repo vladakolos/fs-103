@@ -8,6 +8,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <title>Chocolate</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media-desktop.css">
+    <link rel="stylesheet" href="./css/media-tablet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,9 +20,11 @@
 <body>
     <header class="header">
         <div class="container header-container">
-            <a class="header-logo" href="./index.html"><span class="logo-span">SIMPLY</span> CHOCOLATE <img
-                    class="header-logo-img" src="./images/logo-chocolate.svg" alt="logo-chocolate" width="24"
-                    height="24"></a>
+            <a class="header-logo" href="./index.html"><span class="logo-span">SIMPLY</span> CHOCOLATE <svg
+                    class="header-logo-img" width="24" height="24">
+                    <use href="./images/icons.svg#icon-logo-chocolate"></use>
+                </svg></a>
+
             <nav class="navigation">
                 <ul class="navigation-list">
                     <li class="navigation-list-item"><a class="navigation-item-link" href="/index.html">Home</a></li>
@@ -32,14 +36,53 @@
                 </ul>
             </nav>
             <ul class="social-list">
-                <li class="social-list-item"><a class="social-item-link" href="" target="_blank">Inst</a></li>
-                <li class="social-list-item"><a class="social-item-link" href="" target="_blank">Faceb</a></li>
-                <li class="social-list-item"><a class="social-item-link" href="" target="_blank">Twit</a></li>
+                <li class="social-list-item"><a class="social-item-link" href="" target="_blank"><svg class="soc-icon"
+                            width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></a></li>
+                <li class="social-list-item"><a class="social-item-link" href="" target="_blank"><svg class="soc-icon"
+                            width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></a></li>
+                <li class="social-list-item"><a class="social-item-link" href="" target="_blank"><svg class="soc-icon"
+                            width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></a></li>
             </ul>
+            <button type="button" class="menu-mob-btn"><svg class="menu-mob-btn-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-menu-mob"></button>
         </div>
     </header>
+    <div class="backdrop-mob">
+        <div class="mob-menu">
+            <button type="button" class="mob-close-btn"><svg class="mob-btn-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-mob-close"></button>
+            <nav class="navigation-mob">
+                <ul class="navigation-list-mob">
+                    <li class="navigation-list-item-mob"><a class="navigation-item-link-mob" href="/index.html">Home</a>
+                    </li>
+                    <li class="navigation-list-item-mob"><a class="navigation-item-link-mob" href="#how-its-made">How
+                            it&apos;s
+                            made?</a>
+                    </li>
+                    <li class="navigation-list-item-mob"><a class="navigation-item-link-mob"
+                            href="#chocolate-is-loved">Chocolate is
+                            loved</a></li>
+                </ul>
+            </nav>
+            <ul class="social-list-mob">
+                <li class="social-list-item-mob"><a class="social-item-link-mob" href="" target="_blank"><svg
+                            class="soc-icon-mob" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></a></li>
+                <li class="social-list-item-mob"><a class="social-item-link-mob" href="" target="_blank"><svg
+                            class="soc-icon-mob" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></a></li>
+                <li class="social-list-item-mob"><a class="social-item-link-mob" href="" target="_blank"><svg
+                            class="soc-icon-mob" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></a></li>
+            </ul>
+
+        </div>
+    </div>
     <main>
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="container hero-container">
                 <h1 class="hero-title">Treat yourself or a loved one to
                     our finest ingredients for a moment
@@ -53,8 +96,8 @@
                     </a>
                 </div>
             </div>
-        </section>
-        <section class="our-advantages">
+        </section> -->
+        <!-- <section class="our-advantages">
             <div class="container advantages-container">
                 <h2 class="visually-hidden ">Our Adventages</h2>
                 <ul class="our-adventages-list">
@@ -88,8 +131,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="taste-sensation">
+        </section> -->
+        <!-- <section class="taste-sensation">
             <div class="container taste-container">
                 <h2 class="taste-sensation-title sections-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span
                         class="brand-color-span">TASTE</span> SENSATION</h2>
@@ -135,8 +178,8 @@
                 </ul>
 
             </div>
-        </section>
-        <section class="how-made" id="how-its-made">
+        </section> -->
+        <!-- <section class="how-made" id="how-its-made">
             <div class="container made-container">
                 <h2 class="made-title sections-title">HOW IT&apos;S <span class="brand-color-span">MADE?</span></h2>
                 <div class="made-container-without-title">
@@ -180,8 +223,8 @@
 
                 </div>
             </div>
-        </section>
-        <section class="our-products">
+        </section> -->
+        <!-- <section class="our-products">
             <div class="container pdoducts-container">
                 <h2 class="our-products-title sections-title">Our <span class="brand-color-span">pRODUCTS</span></h2>
                 <ul class="products-list">
@@ -242,8 +285,8 @@
                         <button class="products-list-btn" type="button">54 UAH</button>
                     </li>
             </div>
-        </section>
-        <section class="top-sellers-section">
+        </section> -->
+        <!-- <section class="top-sellers-section">
             <div class="container topsellers-container">
                 <h2 class="top-sell-title sections-title"><span class="brand-color-span">tOp</span> Sellers</h2>
                 <ul class="top-sell-list">
@@ -263,8 +306,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="loved-sections" id="chocolate-is-loved">
+        </section> -->
+        <!-- <section class="loved-sections" id="chocolate-is-loved">
             <div class="container loved-container">
                 <h2 class="loved-title sections-title"><span class="brand-color-span">chocolate</span> is loved</h2>
                 <ul class="loved-list">
@@ -295,9 +338,9 @@
                 </ul>
                 <button class="loved-btn" type="button">Leave a review</button>
             </div>
-        </section>
+        </section> -->
     </main>
-    <footer class="footer-section" id="footer">
+    <!-- <footer class="footer-section" id="footer">
         <div class="container footer-container">
             <p class="footer-title"><span class="brand-color-span">Chocolate</span> a delicious<br> cure for a bad day
             </p>
@@ -329,7 +372,7 @@
                 </ul>
             </nav>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 

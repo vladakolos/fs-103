@@ -1,0 +1,32 @@
+@media screen and (min-width: 1166px) {
+  .container {
+    max-width: 1166px;
+  }
+  .backdrop-mob {
+    display: none;
+  }
+  .navigation {
+    display: flex;
+  }
+  .navigation-list {
+    margin-right: 90px;
+  }
+  .social-list {
+    display: flex;
+    gap: 14px;
+  }
+  .header-logo {
+    flex-grow: 2;
+    padding-bottom: 32px;
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .header-logo-img {
+    width: 28px;
+    height: 28px;
+  }
+  .menu-mob-btn {
+    display: none;
+  }
+}
