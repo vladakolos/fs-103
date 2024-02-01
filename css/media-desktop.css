@@ -29,4 +29,20 @@
   .menu-mob-btn {
     display: none;
   }
+  .hero-container {
+  }
+  .hero-title {
+    font-size: 28px;
+    max-width: 484px;
+  }
+  .hero-btn-all {
+    flex-wrap: nowrap;
+    /* flex-basis: ; */
+  }
+  .hero-button-buy {
+    min-width: 144px;
+  }
+  .hero-link-made-btn {
+    min-width: 183px;
+  }
 }
