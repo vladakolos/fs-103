@@ -2,6 +2,40 @@
   .container {
     max-width: 768px;
   }
+  .hero-container {
+    background-image: url(../images/chocolate-main-tab.jpg);
+    padding: 671px 40px 40px 40px;
+    max-width: 704px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero-container {
+      background-image: url(../images/chocolate-main-tab-2x.jpg);
+    }
+  }
+  .hero-title {
+    font-size: 28px;
+    max-width: 484px;
+  }
+  .hero-scroll-dwn-btn {
+    justify-content: flex-end;
+  }
+  .hero-button-buy {
+    min-width: 144px;
+    min-height: 45px;
+    margin-right: 14px;
+  }
+  .hero-link-made-btn {
+    min-width: 183px;
+    min-height: 45x;
+    padding: 14px 40px;
+  }
+  .hero-btn-all {
+    flex-wrap: nowrap;
+    flex-basis: 14px;
+    gap: 0px;
+  }
   .backdrop-mob {
     display: none;
   }
@@ -29,5 +63,16 @@
   }
   .menu-mob-btn {
     display: none;
+  }
+  .our-adventages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 44px 88px;
+  }
+  .our-adventages-item {
+    flex-basis: calc((100% - 88px) / 2);
+  }
+  .our-advantages {
+    padding: 50px 17px;
   }
 }

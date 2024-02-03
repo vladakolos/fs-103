@@ -287,9 +287,10 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 100%;
+  max-width: 335px;
   border-radius: 30px;
-  padding: 381px 40px 40px 40px;
+  /* padding: 381px 40px 40px 40px; */
+  padding: 395px 16px 20px 16px;
 }
 @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
@@ -322,14 +323,14 @@ img {
   line-height: normal;
   cursor: pointer;
   border-radius: 100px;
-  padding: 14px 40px;
   gap: 14px;
-  padding: 14px 40px;
+  /* padding: 14px 40px; */
+  padding: 12px 28px;
   /* min-width: 144px; */
   min-width: 120px;
-  min-height: 45px;
+  min-height: 41px;
   border: none;
-  margin-right: 14px;
+  /* margin-right: 14px; */
 }
 
 .hero-button-buy:hover,
@@ -347,11 +348,12 @@ img {
   line-height: normal;
   border-radius: 100px;
   border: 1px solid #fff;
-  padding: 14px 40px;
+  /* padding: 14px 40px; */
+  padding: 12px 28px;
   gap: 14px;
   /* min-width: 183px; */
   min-width: 159px;
-  min-height: 45px;
+  min-height: 41px;
 }
 
 .hero-link-made-btn:hover,
@@ -362,36 +364,64 @@ img {
 
 .hero-scroll-dwn-btn {
   display: flex;
+  gap: 14px;
+  flex-grow: 2;
+  min-width: 130px;
+  min-height: 38px;
+  /* justify-content: flex-end; */
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.hero-scroll-dwn-text {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.03em;
-  min-width: 130px;
-  min-height: 38px;
-  align-items: center;
-  gap: 14px;
-  flex-shrink: 0;
-  flex-grow: 2;
-  justify-content: flex-end;
-}
-
-.hero-scroll-dwn-btn:hover,
-.hero-scroll-dwn-btn:focus,
-.hero-scroll-dwn-btn:active {
-  color: #fd9222;
-}
-
-.hero-scroll-dwn-text {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-scroll-btn-img {
+  fill: #fd9222;
+  width: 16px;
+  height: 16px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-scroll-btn-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-all {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  flex-basis: calc((100% - 14px) / 2);
+  gap: 32px 14px;
+}
+
+.hero-scroll-dwn-btn:hover .hero-scroll-dwn-text,
+.hero-scroll-dwn-btn:focus .hero-scroll-dwn-text {
+  color: #fd9222;
+}
+
+.hero-scroll-dwn-btn:hover .hero-scroll-btn-link,
+.hero-scroll-dwn-btn:focus .hero-scroll-btn-link {
+  background-color: #fd9222;
+}
+
+.hero-scroll-dwn-btn:hover .hero-scroll-btn-img,
+.hero-scroll-dwn-btn:focus .hero-scroll-btn-img {
+  fill: #fafafa;
 }
 /* ------------------------- */
 
@@ -399,21 +429,28 @@ img {
 
 .our-advantages {
   background-color: #1e1823;
-  padding: 50px;
+  padding: 20px;
 }
 .advantages-container {
   display: flex;
+
   align-content: center;
+  justify-content: center;
 }
 
 .our-adventages-list {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  gap: 88px;
+  /* gap: 88px; */
+  gap: 20px;
 }
 
 .our-adventages-item {
   flex-basis: calc((100% - 176px) / 3);
+  position: relative;
+  width: 308px;
+  height: 244px;
 }
 
 .our-adv-list-title {
@@ -429,6 +466,20 @@ img {
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.02em;
+}
+.adventages-icon {
+  fill: #fd9222;
+}
+
+.adv-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  margin-bottom: 22px;
 }
 /* ------------------------- */
 

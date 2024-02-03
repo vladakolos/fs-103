@@ -30,6 +30,15 @@
     display: none;
   }
   .hero-container {
+    padding: 381px 40px 40px 40px;
+    background-image: url(../images/chocolate-main.jpg);
+    max-width: 1136px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .hero-container {
+    background-image: url(../images/chocolate-mai-2x.jpg);
   }
   .hero-title {
     font-size: 28px;
@@ -37,12 +46,28 @@
   }
   .hero-btn-all {
     flex-wrap: nowrap;
-    /* flex-basis: ; */
+    flex-basis: 14px;
+    gap: 0px;
   }
-  .hero-button-buy {
-    min-width: 144px;
+  .hero-scroll-dwn-btn {
+    justify-content: flex-end;
   }
-  .hero-link-made-btn {
-    min-width: 183px;
+  .our-adventages-list{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:88px;
+    
   }
+  .our-adventages-item:not(:last-child)::before {
+  position: absolute;
+  content: "";
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 0px;
+  height: 124px;
+  left: 352px;
+  top: 62px;
+}
+.our-advantages{
+  padding: 50px;
+}
 }
